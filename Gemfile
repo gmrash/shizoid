@@ -18,6 +18,8 @@ gem 'sidekiq-cron'
 gem 'sidekiq-limit_fetch', github: 'top4ek/sidekiq-limit_fetch', ref: 'd7f934259a0d0b925f4395df5e897fa25b387817'
 gem 'telegram-bot-ruby'
 
+gem "figaro"
+
 group :development, :test do
   gem 'debug'
   gem 'factory_bot'
